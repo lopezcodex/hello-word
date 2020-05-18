@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Piramide età</title>
+<link rel="stylesheet" href="./style.css">
+<script src="https://www.amcharts.com/lib/4/core.js"></script>
+<script src="https://www.amcharts.com/lib/4/charts.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/spiritedaway.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+    Author: Selhar
+    Date: 2017
+    Contact: selhar@protonmail.com
+    License: GPL
+-->
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Piramide età</title>
+  </head>
+
+  <body>    
+      
+    <h1>Piramide dell'età - Coronavirus</h1>
+
+    <div class="filter level-filter level-req">
+  <div id="rangeSlider" class="range-slider">
+    <h2 id="date_label"></h2>
+
+    <div class="number-group">
+      <input class="hidden number-input" type="number" value="10" min="0" max="50" /> 
+      <input class="hidden number-input" type="number" value="50" min="0" max="50" disabled />
+    </div>
+
+    <div class="range-group">
+      <input id="range-input" class="range-input" value="0" min="1" max="50" step="1" type="range" />
+    </div>
+  </div>
+</div>
+
+<div id="chartdiv"></div>   
+
+  </body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
